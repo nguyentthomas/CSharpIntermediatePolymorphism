@@ -3,19 +3,19 @@ namespace DatabaseConnection
 {
     public abstract class DbConnection
     {
-        string ConnectionString = "Potato";
-        readonly TimeSpan Timeout;
+        public string ConnectionString { get; set; }
+        public TimeSpan Timeout { get; set; }
 
-        public DbConnection()
+        public DbConnection(string connectionString)
         {
-            if (ConnectionString == null)
+            if (connectionString == null)
                 throw new InvalidOperationException("ConnectionString can't be null");
-            else if (ConnectionString == "")
+            else if (connectionString == "")
                 throw new InvalidOperationException("ConnectionString can't be empty");
             else if (Timeout == TimeSpan.FromSeconds(10))
                 throw new Exception("Connection timed out.");
             else
-                Console.WriteLine("Connection String Valid");
+                this.ConnectionString = connectionString;
         }
 
         public abstract void OpenConnection();

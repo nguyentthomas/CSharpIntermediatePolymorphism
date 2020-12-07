@@ -1,0 +1,13 @@
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.exe
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.deps.json
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.runtimeconfig.json
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.runtimeconfig.dev.json
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.dll
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.pdb
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.csprojAssemblyReference.cache
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.AssemblyInfoInputs.cache
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.AssemblyInfo.cs
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.dll
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.pdb
+D:\Projects\VisualStudio\CSharpIntermediate\CSharpIntermediatePolymorphism\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.genruntimeconfig.cache

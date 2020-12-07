@@ -3,25 +3,31 @@ namespace DatabaseConnection
 {
     public class DbCommand
     {
-        string Instruction = "SQL instruction goes here... TODO: Actual Implementation";
+        public string _instruction;
+        public DbConnection _connection;
 
-        public DbCommand()
+        public DbCommand(DbConnection connection, string instruction)
         {
-            
-            
+            if (connection == null)
+                throw new InvalidOperationException("Connection can't be null");
+
+            if (String.IsNullOrWhiteSpace(instruction))
+                throw new InvalidOperationException("Connection string cannot be empty");
+
+            _connection = connection;
         }
 
-        public void Execute()
+        public void Execute(string instruction)
         {
-            var Dbcon = new SqlConnection();
-            Dbcon.OpenConnection();
+            _connection.OpenConnection();
+            InstructionRun(instruction);
+            _connection.CloseConnection();
+        }
 
-            Dbcon.CloseConnection();
-
-            var DbOracleCon = new OracleConnection();
-            DbOracleCon.OpenConnection();
-
-            DbOracleCon.CloseConnection();
+        private void InstructionRun(string instruction)
+        {
+            _instruction = instruction;
+            Console.WriteLine(instruction);
 
         }
     }

@@ -3,6 +3,11 @@ namespace DatabaseConnection
 {
     public class OracleConnection : DbConnection
     {
+        public OracleConnection(string connectionString)
+            :base(connectionString)
+        {
+            Console.WriteLine("OracleConnection works");
+        }
 
         public override void CloseConnection()
         {
